@@ -21,5 +21,5 @@ class RemoteBankAccountProxy
     @rest_client ||= RestClient.new(base_uri, :json)
   end
 
-  attr_reader :rest_service
+  attr_reader :base_uri
 end
